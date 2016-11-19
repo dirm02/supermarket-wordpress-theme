@@ -1,0 +1,17 @@
+{
+  "name": "terzis",
+  "version": "1.0.0",
+  "description": "A Wordpress theme for Supermarkets",
+  "main": "index.php",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnypota/supermarket-wordpress-theme.git"
+  },
+  "author": "Giannis Potamitis",
+  "license": "ISC",
+  "homepage": "https://github.com/johnnypota/supermarket-wordpress-theme#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1"
+  }
+}
