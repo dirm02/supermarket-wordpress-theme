@@ -27,3 +27,11 @@ body {
   color: #3776CC;
   opacity: 0.7;
 }
+
+.bg-blue {
+  background-color: #00A1D9;
+}
+
+.dark-blue {
+  color: #003056;
+}

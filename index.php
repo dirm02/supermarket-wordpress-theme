@@ -111,8 +111,10 @@
         </div>
       </section>
 
+      <!-- Προϊόντα -->
       <section class="projects pt48">
         <div class="container">
+
           <div class="row pb24">
             <div class="col-sm-12 text-center">
               <h2>Προϊόντα</h2>
@@ -218,10 +220,140 @@
         </div>
       </section>
 
+      <!-- Τοποθεσία -->
+      <section class="projects">
+        <div class="container">
+          <div class="row pb24">
+            <div class="col-sm-12 text-center">
+              <h2>Τοποθεσία</h2>
+            </div>
+          </div>
+          <div class="masonry-loader">
+            <div class="col-sm-12 text-center">
+              <div class="spinner"></div>
+            </div>
+          </div>
+          <div class="row masonry masonryFlyIn">
+            <div class="col-sm-6 masonry-item project" data-filter="People">
+              <div class="image-tile hover-tile text-center">
+                <img alt="image" class="background-image" src="<?php echo get_template_directory_uri(); ?>/img/map1.jpg">
+                <div class="hover-state">
+                  <a href="#">
+                    <h3 class="mb8">Υποκατάστημα 1</h3>
+                    <h6>Ρήγα Φεραίου 59</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 masonry-item project" data-filter="People">
+              <div class="image-tile hover-tile text-center">
+                <img alt="image" class="background-image" src="<?php echo get_template_directory_uri(); ?>/img/map1.jpg">
+                <div class="hover-state">
+                  <a href="#">
+                    <h3 class="mb8">Υποκατάστημα 1</h3>
+                    <h6>Ρήγα Φεραίου 59</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 masonry-item project" data-filter="People">
+              <div class="image-tile hover-tile text-center">
+                <img alt="image" class="background-image" src="<?php echo get_template_directory_uri(); ?>/img/map1.jpg">
+                <div class="hover-state">
+                  <a href="#">
+                    <h3 class="mb8">Υποκατάστημα 1</h3>
+                    <h6>Ρήγα Φεραίου 59</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 masonry-item project" data-filter="People">
+              <div class="image-tile hover-tile text-center">
+                <img alt="image" class="background-image" src="<?php echo get_template_directory_uri(); ?>/img/map1.jpg">
+                <div class="hover-state">
+                  <a href="#">
+                    <h3 class="mb8">Υποκατάστημα 1</h3>
+                    <h6>Ρήγα Φεραίου 59</h6>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Η Εταιρία -->
+      <section class="bg-dark bg-blue">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h3>Η Εταιρία</h3>
+            </div>
+          </div>
+          <div class="row mb80 mb-xs-24">
+            <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 text-center">
+              <p>
+                Η εταιρεία ΤΕΡΖΗΣ Α.Ε.Β.Ε. δραστηριοποιείται στο χώρο εμπορίας τροφίμων από το 1998,
+                και αποτελεί μέλος του Ομίλου Terzis Group.
+                Διαθέτει 3 καταστήματα λιανικής πώλησης και ένα κατάστημα χονδρικής Cash &amp; Carry
+                και αποτελεί τη μεγαλύτερη αλυσίδα σούπερ μάρκετ στο Νομό Ηλείας.
+              </p>
+              <p>
+                <strong class="dark-blue">Μειώνουμε σταθερά τις τιμές.</strong>
+              </p>
+              <p>
+                Στα Σούπερ Μάρκετ Τερζής, σας παρέχουμε καθημερινά ποιοτικά προϊόντα σε ανταγωνιστικές τιμές.
+                Στηρίζουμε τα Ελληνικά Προϊόντα με ιδιαίτερη προτεραιότητα στους τοπικούς παραγωγούς.
+                Σας παρέχουμε προσφορές, για τις οποίες μπορείτε να ενημερώνεστε από το φυλλάδιο μας. Επίσης σας προσφέρουμε
+                δωροεπιταγές και τη δυνατότητα αποστολής στο σπίτι.
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h4 class="mb64 mb-xs-40">Συνεργαζόμενες εταιρίες</h4>
+            </div>
+	        </div>
+
+	        <div class="row">
+            <div class="logo-carousel">
+              <ul class="slides">
+                <li>
+                  <a href="#">
+                    <img alt="Logo" src="<?php echo get_template_directory_uri(); ?>/img/fage.png">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img alt="Logo" src="<?php echo get_template_directory_uri(); ?>/img/ion.png">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img alt="Logo" src="<?php echo get_template_directory_uri(); ?>/img/papadopoulou.png">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img alt="Logo" src="<?php echo get_template_directory_uri(); ?>/img/green-cola.png">
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img alt="Logo" src="<?php echo get_template_directory_uri(); ?>/img/vitam.png">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
       <footer class="footer-1 bg-dark">
 				<div class="container">
 					<div class="row">
-
             <div class="col-md-3 col-sm-6">
 							<div class="widget">
 								<h6 class="title">ΤΟΠΟΘΕΣΙΑ</h6>
