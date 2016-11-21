@@ -3678,10 +3678,10 @@ img {
     position: relative;
     bottom: 0;
   }
-  .cover.fullscreen {
+  /*.cover.fullscreen {
     height: auto;
     padding: 80px 0;
-  }
+  }*/
   .cover.fullscreen.image-slider {
     padding: 0;
   }
@@ -3690,10 +3690,10 @@ img {
     transform: none;
     -webkit-transform: none;
   }
-  .cover.fullscreen .slides li {
+  /*.cover.fullscreen .slides li {
     height: auto;
     padding: 80px 0;
-  }
+  }*/
 }
 /*!---------- 26. SHOP ----------*/
 .product-single .image-slider .label {

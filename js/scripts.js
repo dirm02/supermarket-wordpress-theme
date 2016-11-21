@@ -112,7 +112,7 @@ $(document).ready(function() {
 
 
     // Fix nav to top while scrolling
-    // 
+    //
     // mr_nav = $('body .nav-container nav:first');
     // mr_navOuterHeight = $('body .nav-container nav:first').outerHeight();
     //     mr_fixedAt = typeof mr_nav.attr('data-fixed-at') !== typeof undefined ? parseInt(mr_nav.attr('data-fixed-at').replace('px', '')) : parseInt($('section:nth-of-type(1)').outerHeight());
@@ -361,6 +361,11 @@ $(document).ready(function() {
             directionNav: false,
             controlNav: false
         });
+        $('.slider-offer-products').flexslider({
+          animation: "slide",
+          controlNav: false,
+          slideshow: false
+        })
     }
 
     // Lightbox gallery titles
