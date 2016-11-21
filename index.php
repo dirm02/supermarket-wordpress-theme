@@ -17,43 +17,115 @@
   </head>
   <body>
 
-		<div class="nav-container">
-	    <nav>
+    <div class="nav-container">
+      <a id="top"></a>
+      <nav class="fixed">
         <div class="nav-bar text-center">
-          <div class="col-md-2 col-md-push-5 col-sm-12 text-center">
-            <a href="#">
-              <img alt="logo" class="image-xs" src="<?php echo get_template_directory_uri(); ?>/img/logo.png">
+          <div class="module">
+            <a href="<?php echo get_site_url(); ?>">
+              <img class="logo logo-light" alt="<?php echo bloginfo('name'); ?>" src="<?php echo get_template_directory_uri(); ?>/img/logo.png">
+              <img class="logo logo-dark" alt="<?php echo bloginfo('name'); ?>" src="<?php echo get_template_directory_uri(); ?>/img/logo.png">
             </a>
           </div>
 
-          <div class="col-sm-12 col-md-5 col-md-pull-2 overflow-hidden-xs">
-            <ul class="menu inline-block pull-right">
-              <li><a href="#">Αρχική</a></li>
-              <li><a href="#">Προσφορές</a></li>
-              <li><a href="#">Προϊόντα</a></li>
-              <li><a href="#">Καταστήματα</a></li>
-            </ul>
+          <div class="module widget-handle mobile-toggle right visible-lg visible-md visible-sm visible-xs active toggle-widget-handle">
+            <i class="ti-angle-down"></i>
           </div>
 
-          <div class="col-sm-12 col-md-5 pb-xs-24">
-            <ul class="menu">
-              <li><a href="#">Η Εταιρία</a></li>
-              <li><a href="#">Τελευταία Νέα</a></li>
-              <li><a href="#">Επικοινωνία</a></li>
-            </ul>
-          </div>
-        </div>
+              <div class="module-group right">
 
-        <div class="module widget-handle mobile-toggle right visible-sm visible-xs absolute-xs">
-          <i class="ti-menu"></i>
-        </div>
-	    </nav>
-		</div>
+                <div class="module text-center">
+                    <ul class="menu">
+                      <li>
+                          <a href="#page1">ΑΡΧΙΚΗ</a>
+                      </li>
+                      <li>
+                          <a href="#page2">ΠΡΟΣΦΟΡΕΣ</a>
+                      </li>
+                      <li>
+                          <a href="#page3">ΠΡΟΪΟΝΤΑ</a>
+                      </li>
+                      <li>
+                          <a href="#page4">ΤΟΠΟΘΕΣΙΑ</a>
+                      </li>
+                      <li>
+                          <a href="#page5">Η ΕΤΑΙΡΙΑ</a>
+                      </li>
+                      <li>
+                          <a href="#page6">ΝΕΑ</a>
+                      </li>
+                      <li>
+                          <a href="#page7">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+                      </li>
+                    </ul>
+                </div>
+
+                  <div class="module widget-handle search-widget-handle left">
+                      <div class="search">
+                          <i class="ti-search"></i>
+                          <span class="title">ΑΝΑΖΗΤΗΣΗ</span>
+                      </div>
+                      <div class="function">
+                          <form class="search-form">
+                              <input placeholder="ΑΝΑΖΗΤΗΣΗ" type="text">
+                          </form>
+                      </div>
+                  </div>
+                  <div class="module widget-handle cart-widget-handle left">
+                      <div class="cart">
+                          <i class="ti-bag"></i>
+                          <span class="label number">2</span>
+                          <span class="title">ΚΑΛΑΘΙ</span>
+                      </div>
+                      <div class="function">
+                          <div class="widget">
+                              <h6 class="title">ΚΑΛΑΘΙ</h6>
+                              <hr>
+                              <ul class="cart-overview">
+                                  <li>
+                                      <a href="#">
+                                          <img alt="Product" src="<?php echo get_template_directory_uri(); ?>/img/peaches.jpg">
+                                          <div class="description">
+                                              <span class="product-title">Canvas Backpack</span>
+                                              <span class="price number">39.90€</span>
+                                          </div>
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a href="#">
+                                          <img alt="Product" src="<?php echo get_template_directory_uri(); ?>/img/peaches.jpg">
+                                          <div class="description">
+                                              <span class="product-title">Vintage Camera</span>
+                                              <span class="price number">249.50€</span>
+                                          </div>
+                                      </a>
+                                  </li>
+                              </ul>
+                              <hr>
+                              <div class="cart-controls">
+                                  <a class="btn btn-sm btn-filled pull-left" href="#">ΤΑΜΕΙΟ</a>
+                                  <div class="list-inline pull-right">
+                                      <span class="cart-total">ΣΥΝΟΛΟ: </span>
+                                      <span class="number">289.40€</span>
+                                  </div>
+                              </div>
+                          </div>
+                          <!--end of widget-->
+                      </div>
+                  </div>
+
+              </div>
+              <!--end of module group-->
+          </div>
+      </nav>
+  </div>
+
+
 
   	<div class="main-container">
 
       <!-- Slider -->
-  		<section class="cover fullscreen image-slider slider-all-controls controls-inside parallax">
+  		<section id="page1" class="cover fullscreen image-slider slider-all-controls controls-inside parallax">
         <ul class="slides">
           <li class="overlay image-bg">
             <div class="background-image-holder">
@@ -69,7 +141,7 @@
 	    </section>
 
       <!-- Προσφορές -->
-      <section>
+      <section id="page2">
         <div class="container">
           <div class="row">
             <div class="col-md-4 col-md-offset-4 mb48 text-center">
@@ -112,7 +184,7 @@
       </section>
 
       <!-- Προϊόντα -->
-      <section class="projects pt48">
+      <section id="page3" class="projects pt48">
         <div class="container">
 
           <div class="row pb24">
@@ -221,7 +293,7 @@
       </section>
 
       <!-- Τοποθεσία -->
-      <section class="projects">
+      <section id="page4" class="projects">
         <div class="container">
           <div class="row pb24">
             <div class="col-sm-12 text-center">
@@ -283,14 +355,14 @@
       </section>
 
       <!-- Η Εταιρία -->
-      <section class="bg-dark bg-blue">
+      <section id="page5" class="bg-dark bg-blue">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 text-center">
               <h3>Η Εταιρία</h3>
             </div>
           </div>
-          <div class="row mb80 mb-xs-24">
+          <div class="row mb64 mb-xs-24">
             <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 text-center">
               <p>
                 Η εταιρεία ΤΕΡΖΗΣ Α.Ε.Β.Ε. δραστηριοποιείται στο χώρο εμπορίας τροφίμων από το 1998,
@@ -312,7 +384,7 @@
 
           <div class="row">
             <div class="col-sm-12 text-center">
-              <h4 class="mb64 mb-xs-40">Συνεργαζόμενες εταιρίες</h4>
+              <h4 class="mb32 mb-xs-40 dark-blue">Συνεργαζόμενες εταιρίες</h4>
             </div>
 	        </div>
 
@@ -350,8 +422,61 @@
         </div>
       </section>
 
+      <!-- Νέα -->
+      <section id="page6">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
+                      <h4 class="mb32">Νέα</h4>
+                  </div>
+              </div>
+              <div class="row">
+                 <div class="col-md-8 col-sm-10 col-sm-offset-1 col-md-offset-2">
+                      <div class="horizontal-tile">
+                          <div class="tile-left">
+                              <a href="#">
+                                  <div class="background-image-holder">
+                                      <img alt="image" class="background-image" src="<?php echo get_template_directory_uri(); ?>/img/vegetables.jpg">
+                                  </div>
+                              </a>
+                          </div>
+                          <div class="tile-right bg-secondary">
+                              <div class="description">
+                                  <h4 class="mb8">Ανακαλύψτε το νέο κατάστημα Τερζής market</h4>
+                                  <h6>Date</h6>
+                                  <p>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                  </p>
+                                  <a href="#">περισσότερα</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="horizontal-tile">
+                          <div class="tile-left">
+                              <a href="#">
+                                  <div class="background-image-holder">
+                                      <img alt="image" class="background-image" src="<?php echo get_template_directory_uri(); ?>/img/vegetables.jpg">
+                                  </div>
+                              </a>
+                          </div>
+                          <div class="tile-right bg-secondary">
+                              <div class="description">
+                                  <h4 class="mb8">Ανακαλύψτε το νέο κατάστημα Τερζής market</h4>
+                                  <h6>Date</h6>
+                                  <p>
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                  </p>
+                                  <a href="#">περισσότερα</a>
+                              </div>
+                          </div>
+                      </div>
+                 </div>
+              </div>
+          </div>
+      </section>
+
       <!-- Footer -->
-      <footer class="footer-1 bg-dark">
+      <footer id="page7" class="footer-1 bg-dark">
 				<div class="container">
 					<div class="row">
             <div class="col-md-3 col-sm-6">
@@ -499,5 +624,16 @@
   	</div>
 
     <?php wp_footer(); ?>
+
+    <script>
+      $( ".mobile-toggle" ).click(function() {
+        if ( $( ".nav-open" ).length ) {
+            $('.ti-angle-up').addClass('ti-angle-down').removeClass('ti-angle-up');
+        } else {
+            $('.ti-angle-down').addClass('ti-angle-up').removeClass('ti-angle-down');
+        }
+      });
+    </script>
+
   </body>
 </html>
