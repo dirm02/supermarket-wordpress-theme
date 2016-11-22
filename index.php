@@ -361,32 +361,25 @@
       </section>
 
       <!-- Τοποθεσία -->
-      <section id="page4" class="projects">
-
+      <section id="page4">
         <div class="container">
-
           <div class="row pb24">
             <div class="col-sm-12 text-center">
               <h2 class="blue">Τοποθεσία</h2>
             </div>
           </div>
-          <div class="masonry-loader">
-            <div class="col-sm-12 text-center">
-              <div class="spinner"></div>
+          <div class="row">
+            <div class="col-sm-6 pb16">
+              <div class="map-canvas" data-address="Ρίγα Φεραίου 59, Πύργος" data-map-zoom="16" data-map-style="[{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#444444&quot;}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f2f2f2&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:45}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#46bcec&quot;},{&quot;visibility&quot;:&quot;on&quot;}]}]" data-maps-api-key="AIzaSyBLYw1AL7CbAPeCJ9fzrEdFw-ST3NGvvRc"></div>
             </div>
-          </div>
-          <div class="row masonry masonryFlyIn">
-            <div class="col-sm-6 masonry-item project" data-filter="People">
-              <div class="map-canvas" data-address="Ρίγα Φεραίου 59, Πύργος" data-map-zoom="15" data-map-style="[{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#444444&quot;}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f2f2f2&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:45}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#46bcec&quot;},{&quot;visibility&quot;:&quot;on&quot;}]}]" data-maps-api-key="AIzaSyBLYw1AL7CbAPeCJ9fzrEdFw-ST3NGvvRc"></div>
+            <div class="col-sm-6 pb16">
+              <div class="map-canvas" data-address="Γερμανού 39, Πύργος" data-map-zoom="16" data-map-style="[{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#444444&quot;}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f2f2f2&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:45}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#46bcec&quot;},{&quot;visibility&quot;:&quot;on&quot;}]}]" data-maps-api-key="AIzaSyBLYw1AL7CbAPeCJ9fzrEdFw-ST3NGvvRc"></div>
             </div>
-            <div class="col-sm-6 masonry-item project" data-filter="People">
-              <div class="map-canvas" data-address="Γερμανού 39, Πύργος" data-map-zoom="15" data-map-style="[{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#444444&quot;}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f2f2f2&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:45}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#46bcec&quot;},{&quot;visibility&quot;:&quot;on&quot;}]}]" data-maps-api-key="AIzaSyBLYw1AL7CbAPeCJ9fzrEdFw-ST3NGvvRc"></div>
+            <div class="col-sm-6 pb16">
+              <div class="map-canvas" data-address="Μανωλοπούλου 42, Πύργος" data-map-zoom="16" data-map-style="[{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#444444&quot;}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f2f2f2&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:45}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#46bcec&quot;},{&quot;visibility&quot;:&quot;on&quot;}]}]" data-maps-api-key="AIzaSyBLYw1AL7CbAPeCJ9fzrEdFw-ST3NGvvRc"></div>
             </div>
-            <div class="col-sm-6 masonry-item project" data-filter="People">
-              <div class="map-canvas" data-address="Μανωλοπούλου 42, Πύργος" data-map-zoom="15" data-map-style="[{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#444444&quot;}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f2f2f2&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:45}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#46bcec&quot;},{&quot;visibility&quot;:&quot;on&quot;}]}]" data-maps-api-key="AIzaSyBLYw1AL7CbAPeCJ9fzrEdFw-ST3NGvvRc"></div>
-            </div>
-            <div class="col-sm-6 masonry-item project" data-filter="People">
-              <div class="map-canvas" data-address="2' ΕΟ Ολυμπίας Πύργου" data-map-zoom="14" data-map-style="[{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#444444&quot;}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f2f2f2&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:45}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#46bcec&quot;},{&quot;visibility&quot;:&quot;on&quot;}]}]" data-maps-api-key="AIzaSyBLYw1AL7CbAPeCJ9fzrEdFw-ST3NGvvRc"></div>
+            <div class="col-sm-6 pb16">
+              <div class="map-canvas" data-address="2' ΕΟ Ολυμπίας Πύργου" data-map-zoom="13" data-map-style="[{&quot;featureType&quot;:&quot;administrative&quot;,&quot;elementType&quot;:&quot;labels.text.fill&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#444444&quot;}]},{&quot;featureType&quot;:&quot;landscape&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#f2f2f2&quot;}]},{&quot;featureType&quot;:&quot;poi&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;road&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;saturation&quot;:-100},{&quot;lightness&quot;:45}]},{&quot;featureType&quot;:&quot;road.highway&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;simplified&quot;}]},{&quot;featureType&quot;:&quot;road.arterial&quot;,&quot;elementType&quot;:&quot;labels.icon&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;transit&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;visibility&quot;:&quot;off&quot;}]},{&quot;featureType&quot;:&quot;water&quot;,&quot;elementType&quot;:&quot;all&quot;,&quot;stylers&quot;:[{&quot;color&quot;:&quot;#46bcec&quot;},{&quot;visibility&quot;:&quot;on&quot;}]}]" data-maps-api-key="AIzaSyBLYw1AL7CbAPeCJ9fzrEdFw-ST3NGvvRc"></div>
             </div>
           </div>
         </div>
@@ -462,55 +455,59 @@
 
       <!-- Νέα -->
       <section id="page6">
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-                      <h3 class="blue">Νέα</h3>
-                  </div>
-              </div>
-              <div class="row">
-                 <div class="col-md-8 col-sm-10 col-sm-offset-1 col-md-offset-2">
-                      <div class="horizontal-tile">
-                          <div class="tile-left">
-                              <a href="#">
-                                  <div class="background-image-holder">
-                                      <img alt="image" class="background-image" src="<?php echo get_template_directory_uri(); ?>/img/vegetables.jpg">
-                                  </div>
-                              </a>
-                          </div>
-                          <div class="tile-right bg-secondary">
-                              <div class="description">
-                                  <h4 class="mb8">Ανακαλύψτε το νέο κατάστημα Τερζής market</h4>
-                                  <h6>Date</h6>
-                                  <p>
-                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                  </p>
-                                  <a href="#">περισσότερα</a>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="horizontal-tile">
-                          <div class="tile-left">
-                              <a href="#">
-                                  <div class="background-image-holder">
-                                      <img alt="image" class="background-image" src="<?php echo get_template_directory_uri(); ?>/img/vegetables.jpg">
-                                  </div>
-                              </a>
-                          </div>
-                          <div class="tile-right bg-secondary">
-                              <div class="description">
-                                  <h4 class="mb8">Ανακαλύψτε το νέο κατάστημα Τερζής market</h4>
-                                  <h6>Date</h6>
-                                  <p>
-                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                                  </p>
-                                  <a href="#">περισσότερα</a>
-                              </div>
-                          </div>
-                      </div>
-                 </div>
-              </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h3 class="blue pb24">Νέα</h3>
+            </div>
           </div>
+          <div class="row">
+
+            <div class="col-md-10 col-md-offset-1">
+
+              <?php
+
+              // The Query
+              $the_query = new WP_Query(  array( 'post_type' => 'post', 'orderby' => 'date', 'order'   => 'DESC', 'posts_per_page'=> 2 )  );
+
+              // The Loop
+              if ( $the_query->have_posts() ) {
+              	while ( $the_query->have_posts() ) {
+              		$the_query->the_post();
+              ?>
+              <div class="horizontal-tile">
+                <div class="tile-left">
+                  <a href="#">
+                    <div class="background-image-holder">
+                      <img alt="image" class="background-image" src="<?php the_post_thumbnail_url( $large ); ?> ">
+                    </div>
+                  </a>
+                </div>
+                <div class="tile-right bg-secondary">
+                  <div class="description">
+                    <h4 class="mb8 blue"><?php the_title() ?></h4>
+                    <h6><?php echo get_the_date(); ?></h6>
+                    <p>
+                        <?php echo the_excerpt();  ?>
+                    </p>
+                    <a href="#">περισσότερα</a>
+                  </div>
+                </div>
+              </div>
+              <?php
+              	}
+              	/* Restore original Post Data */
+              	wp_reset_postdata();
+              } else {
+              	// no posts found
+              }
+              ?>
+
+
+            </div>
+
+          </div>
+        </div>
       </section>
 
       <!-- Footer -->

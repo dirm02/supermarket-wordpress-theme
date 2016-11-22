@@ -1,6 +1,14 @@
 <?php
 
 /*****************************
+-Filter the except length to 19 words.
+*****************************/
+function wpdocs_custom_excerpt_length( $length ) {
+    return 19;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+
+/*****************************
 Clean up the header
 *****************************/
 function remove_wp_header_links() {

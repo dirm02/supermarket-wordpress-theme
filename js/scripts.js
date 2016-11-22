@@ -1202,7 +1202,7 @@ window.initializeMaps = function(){
                         longitude     = latlong ? 1 * latlong.substr(latlong.indexOf(",") + 1) : false,
                         geocoder      = new google.maps.Geocoder(),
                         address       = typeof $(this).attr('data-address') !== "undefined" ? $(this).attr('data-address').split(';'): [""],
-                        markerTitle   = "We Are Here",
+                        markerTitle   = " ",
                         isDraggable = $(document).width() > 766 ? true : false,
                         map, marker, markerImage,
                         mapOptions = {
@@ -1227,7 +1227,7 @@ window.initializeMaps = function(){
                                 address.forEach(function(address){
                                     var markerGeoCoder;
 
-                                    markerImage = {url: window.mr_variant == undefined ? 'img/mapmarker.png' : '../img/mapmarker.png', size: new google.maps.Size(50,50), scaledSize: new google.maps.Size(50,50)};
+                                    markerImage = {url: window.mr_variant == undefined ? 'wp-content/themes/terzis/img/mapmarker.png' : '../img/mapmarker.png', size: new google.maps.Size(50,50), scaledSize: new google.maps.Size(50,50)};
                                     if(/(\-?\d+(\.\d+)?),\s*(\-?\d+(\.\d+)?)/.test(address) ){
                                         var latlong = address.split(','),
                                         marker = new google.maps.Marker({

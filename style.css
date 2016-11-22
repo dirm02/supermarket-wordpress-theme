@@ -108,6 +108,10 @@ div.faa-float {
   height: 280px;
   position: relative;
 }
+.tile-right .description, .tile-left .description {
+  padding: 24px;
+}
+
 
 
 .animated {
@@ -130,6 +134,12 @@ div.faa-float {
 
 /*Build the menu*/
 @media all and (min-width: 991px) {
+  #page6 .tile-right {
+    width: 55%;
+  }
+  #page6 .tile-left {
+    width: 45%;
+  }
   nav.fixed {
     opacity: 1 !important;
     visibility: visible !important;
