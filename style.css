@@ -111,6 +111,9 @@ div.faa-float {
 .tile-right .description, .tile-left .description {
   padding: 24px;
 }
+.breadcrumb-2 li a, .breadcrumb-2 li {
+  text-transform: none;
+}
 
 
 
