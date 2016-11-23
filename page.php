@@ -15,7 +15,6 @@
       </div>
 
   </div>
-
   <ol class="breadcrumb breadcrumb-2">
       <li>
           <a href="#">Αρχική</a>

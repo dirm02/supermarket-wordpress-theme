@@ -34,6 +34,17 @@ body, input, button, select, textarea {
 .bg-blue {
   background-color: #00A1D9;
 }
+#page4 .bg-blue {
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+#page4 .bg-blue p{
+  margin: 0;
+}
+#page4 .bg-blue a{
+  color: #fff;
+}
 .dark-blue {
   color: #003056!important;
 }
@@ -105,7 +116,7 @@ div.faa-float {
 }
 .map-canvas {
   width: auto;
-  height: 280px;
+  height: 220px;
   position: relative;
 }
 .tile-right .description, .tile-left .description {
@@ -114,8 +125,19 @@ div.faa-float {
 .breadcrumb-2 li a, .breadcrumb-2 li {
   text-transform: none;
 }
-
-
+.image-tile .label {
+    top: 50px;
+    right: 30px;
+    border-radius: 70px;
+    background-color: #00A1D9;
+}
+.old-price {
+  text-decoration: line-through;;
+  color: red;
+}
+.inner-title .title {
+  padding: 10px;
+}
 
 .animated {
   animation: MoveUpDown 3s linear infinite;
@@ -137,6 +159,9 @@ div.faa-float {
 
 /*Build the menu*/
 @media all and (min-width: 991px) {
+  .container .project {
+    margin-bottom: 43px;
+  }
   #page6 .tile-right {
     width: 55%;
   }
