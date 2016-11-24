@@ -13,9 +13,28 @@
     }
     ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/manifest.json">
+    <link rel="mask-icon" href="<?php echo get_template_directory_uri(); ?>/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
     <?php wp_head(); ?>
   </head>
   <body>
+
+    <!-- Facebook SDK -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
     <div class="nav-container">
       <a id="top"></a>
@@ -74,7 +93,7 @@
                   <div class="module widget-handle cart-widget-handle left">
                       <div class="cart">
                           <i class="ti-bag"></i>
-                          <span class="label number">2</span>
+                          <span class="label number"><?php echo WC()->cart->get_cart_contents_count(); ?></span>
                           <span class="title">ΚΑΛΑΘΙ</span>
                       </div>
                       <div class="function">
@@ -82,31 +101,33 @@
                               <h6 class="title">ΚΑΛΑΘΙ</h6>
                               <hr>
                               <ul class="cart-overview">
+                                <?php
+                                  global $woocommerce;
+                                  $items = $woocommerce->cart->get_cart();
+                                  foreach($items as $item => $values) {
+                                    $product = $values['data']->post;
+                                    $quantity = $values['quantity'];
+                                    $price = get_post_meta($values['product_id'] , '_price', true);
+                                    $currency = get_woocommerce_currency_symbol();
+                                    $image = wp_get_attachment_image_src( get_post_thumbnail_id( $product->ID ), 'medium' );
+                                  ?>
                                   <li>
                                       <a href="#">
-                                          <img alt="Product" src="<?php echo get_template_directory_uri(); ?>/img/peaches.jpg">
+                                          <img alt="Product" src="<?php echo $image[0]; ?>">
                                           <div class="description">
-                                              <span class="product-title">Canvas Backpack</span>
-                                              <span class="price number">39.90€</span>
+                                              <span class="product-title"><?php echo $product->post_title; ?> x <?php echo $quantity ?></span>
+                                              <span class="price number"><?php echo $price; echo $currency; ?></span>
                                           </div>
                                       </a>
                                   </li>
-                                  <li>
-                                      <a href="#">
-                                          <img alt="Product" src="<?php echo get_template_directory_uri(); ?>/img/peaches.jpg">
-                                          <div class="description">
-                                              <span class="product-title">Vintage Camera</span>
-                                              <span class="price number">249.50€</span>
-                                          </div>
-                                      </a>
-                                  </li>
+                                  <?php } ?>
                               </ul>
                               <hr>
                               <div class="cart-controls">
-                                  <a class="btn btn-sm btn-filled pull-left" href="#">ΤΑΜΕΙΟ</a>
+                                  <a class="btn btn-sm btn-filled pull-left" href="<?php echo wc_get_cart_url(); ?>">ΤΑΜΕΙΟ</a>
                                   <div class="list-inline pull-right">
                                       <span class="cart-total">ΣΥΝΟΛΟ: </span>
-                                      <span class="number">289.40€</span>
+                                      <span class="number"><?php echo WC()->cart->get_cart_total(); ?></span>
                                   </div>
                               </div>
                           </div>

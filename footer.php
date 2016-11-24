@@ -113,7 +113,7 @@
 
 				<div class="row">
 					<div class="col-sm-6">
-						<span class="sub"><?php echo date("Y"); ?> © <?php echo get_bloginfo("name"); ?> | Developed by <a href="http://webartworks.gr/">Web Artworks</a></span>
+						<span class="sub"><?php echo date("Y"); ?> © <a href="<?php echo get_site_url(); ?>"><?php echo get_bloginfo("name"); ?></a> | Developed by <a href="http://webartworks.gr/">Web Artworks</a></span>
 					</div>
 					<div class="col-sm-6 text-right">
 						<ul class="list-inline social-list">
@@ -142,7 +142,7 @@
 				</div>
 			</div>
 
-			<a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>
+			<a class="fade-half back-to-top inner-link" href="#top"><i class="ti ti-arrow-circle-up"></i></a>
 		</footer>
 
 	</div>

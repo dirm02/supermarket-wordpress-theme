@@ -75,8 +75,8 @@
             <div class="col-md-4 offer-product">
               <div class="image-tile outer-title text-center">
                 <div class="title mb16">
-                  <!-- <a rel="nofollow" href="/terzis.com.gr/?add-to-cart=29" data-quantity="1" data-product_id="29" data-product_sku="300-789" class="button product_type_simple add_to_cart_button ajax_add_to_cart"></a> -->
-                  <i class="icon ti-shopping-cart pull-right"></i>
+                  <a rel="nofollow" href="/terzis.com.gr/?add-to-cart=29" data-quantity="1" data-product_id="29" data-product_sku="300-789" class="button product_type_simple add_to_cart_button ajax_add_to_cart"><i class="icon ti-shopping-cart pull-right"></i></a>
+                  <!-- <i class="icon ti-shopping-cart pull-right"></i> -->
                   <h5 class="mb0"><?php the_title() ?></h5>
                   <span>SKU:&nbsp;</span><span><?php echo $product->get_sku(); ?></span>
                 </div>
@@ -286,20 +286,20 @@
         ?>
         <div class="horizontal-tile">
           <div class="tile-left">
-            <a href="#">
+            <a href="<?php echo get_permalink(); ?>">
               <div class="background-image-holder">
-                <img alt="image" class="background-image" src="<?php the_post_thumbnail_url( $large ); ?> ">
+                <img alt="image" class="background-image" src="<?php the_post_thumbnail_url( $large ); ?>">
               </div>
             </a>
           </div>
           <div class="tile-right bg-secondary">
             <div class="description">
               <h4 class="mb8 blue"><?php the_title() ?></h4>
-              <h6><?php echo get_the_date(); ?></h6>
+              <h6 class="grey"><?php echo get_the_date(); ?></h6>
               <p>
                   <?php echo the_excerpt();  ?>
               </p>
-              <a href="#">περισσότερα</a>
+              <a class="more" href="<?php echo get_permalink(); ?>">Περισσότερα</a>
             </div>
           </div>
         </div>

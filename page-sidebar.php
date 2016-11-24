@@ -1,3 +1,7 @@
+/**
+ * Template Name: Page Sidebar
+ */
+
 <?php get_header() ?>
 
 <!-- Start the Loop. -->
@@ -26,7 +30,7 @@
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-sm-10 col-sm-offset-1 text-center">
+      <div class="col-md-7 col-md-offset-1 col-sm-8">
         <?php if ( has_post_thumbnail() ) { ?>
         <img class="mb24" alt="Post Image" src="<?php the_post_thumbnail_url( $large ); ?>">
         <?php } ?>
@@ -35,6 +39,14 @@
         </div>
         <hr>
         <?php the_content(); ?>
+      </div>
+      <div class="col-md-3 col-sm-4 col-md-offset-1">
+        <!-- Facebook Widget -->
+        <div class="fb-page" data-href="https://www.facebook.com/TerzisSupermarketGR/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+          <blockquote cite="https://www.facebook.com/TerzisSupermarketGR/" class="fb-xfbml-parse-ignore">
+            <a href="https://www.facebook.com/TerzisSupermarketGR/">ΤΕΡΖΗΣ Σούπερ-Μάρκετ</a>
+          </blockquote>
+        </div>
       </div>
     </div>
   </div>
